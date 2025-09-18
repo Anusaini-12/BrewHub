@@ -1,0 +1,66 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: "Mona sans" Arial, Helvetica, sans-serif !important;  
+} 
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    font-family: "Lavishly Yours";
+}
+
+.nav-logo img{
+     height: 70px;
+     width: 70px;
+     margin: 0 5px 6px 0;
+}
+
+.nav-links{
+    display: flex;
+    gap: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-links li{
+     position: relative;
+}
+.nav-links li:hover{
+    cursor: pointer;
+    color: #D65C82;
+}
+
+/* .nav-links li::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    margin-top: 10px;
+    background-color: #3E0703;
+    transition: all 0.2s ease-in-out;
+}
+.nav-links li:hover::after{
+    left: 0;
+    width: 100%;
+} */
+
+.login-btn{
+    border-radius: 70px;
+    padding: 10px 35px;
+    background-color: white;
+    color: #262626;
+    font-weight: 500;
+    font-family: "Mona sans" Arial, Helvetica, sans-serif !important;  
+}
+
+.login-btn:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}
