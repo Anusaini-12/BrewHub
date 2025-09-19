@@ -32,24 +32,8 @@
 }
 .nav-links li:hover{
     cursor: pointer;
-    color: #D65C82;
+    color: #E45A92;
 }
-
-/* .nav-links li::after{
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    margin-top: 10px;
-    background-color: #3E0703;
-    transition: all 0.2s ease-in-out;
-}
-.nav-links li:hover::after{
-    left: 0;
-    width: 100%;
-} */
 
 .login-btn{
     border-radius: 70px;
@@ -63,4 +47,51 @@
 .login-btn:hover{
     opacity: 0.85;
     cursor: pointer;
+}
+
+.menu-toggle{
+    display: none;
+}
+.menu-toggle:hover{
+   transform: scale(1.08);
+}
+@media (max-width: 800px) {
+    .nav-logo p{
+        font-size: 2.5rem;
+    }
+
+    .nav-logo img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .nav-links{
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 4px;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: rgba(255, 255, 255, 0.2);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        color: #3A0519;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 1rem;
+        width: 150px;
+        gap: 0.8rem;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    .nav-links.open{
+        display: flex;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    .login-btn{
+        display: none;
+    }
+
 }

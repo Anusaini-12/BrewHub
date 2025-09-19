@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
 *{
-
     box-sizing: border-box;
     font-family: "Mona sans" Arial, Helvetica, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
 }

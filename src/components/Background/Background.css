@@ -6,15 +6,13 @@
 }
 
 .background{
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     object-fit: cover;
     z-index: -1;
-    padding: 0;
-    overflow: hidden; 
 }
 
 @keyframes fadeInBg{
@@ -29,3 +27,13 @@
     width: 100%;
     animation: fadeInBg 500ms ease-in-out;
 }
+
+@media (max-width: 800px){
+ .background {
+  width: 100%;    
+  height: auto;     
+  min-height: 100vh;
+  object-position: center;
+}
+}
+

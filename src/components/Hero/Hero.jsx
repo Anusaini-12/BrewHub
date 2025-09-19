@@ -12,12 +12,12 @@ const Hero = ({ heroCount, setHeroCount, setPlayStatus, playStatus }) => {
   return (
     <div className="hero">
       <div className="hero-text">
-          <h2 className="text-3xl text-gray-200">{heroContent[heroCount].text}</h2>
-          <p className="text-6xl text-white font-bold mt-6">{heroContent[heroCount].subText}</p>
+          <h2 className="text-gray-200 text-xl sm:text-xl md:text-2xl lg:text-3xl">{heroContent[heroCount].text}</h2>
+          <p className="text-white font-bold text-4xl sm:text-4xl md:text-5xl lg:text-5xl mt-6">{heroContent[heroCount].subText}</p>
       </div>
 
-      <div className="hero-explore">
-          <button className="btn-grad">Explore</button>
+      <div className="hero-explore ">
+          <a href="#coffee"><button className="btn-grad">Explore</button></a>
       </div>
 
       <div className="hero-dot-btns">
@@ -27,7 +27,7 @@ const Hero = ({ heroCount, setHeroCount, setPlayStatus, playStatus }) => {
             <li onClick={ () => setHeroCount(2) } className={heroCount == 2 ? "dot pink" : "dot"}></li>
         </ul>
       
-        <div className="hero-play">
+        <div className="hero-play mr-6 sm:mr-3 md:mr-7">
           <img 
           onClick={() => setPlayStatus(!playStatus)}
           src={playStatus ? pause : play} 

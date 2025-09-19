@@ -2,10 +2,8 @@ import { useState, useEffect } from "react";
 import Hero from "./components/Hero/Hero"
 import Background from "./components/Background/Background"
 import Navbar from "./components/Navbar/Navbar";
-import CoffeeCard from "./components/Coffee/CoffeeCard";
 import Coffee from "./components/Coffee/Coffee";
 import Footer from "./components/Footer/Footer";
-import "./App.jsx"
 import Contact from "./components/Contact/Contact.jsx";
 
 const App = () => {
@@ -23,13 +21,13 @@ const App = () => {
     
   return (
     <>
-    <div  className="hero-section relative h-screen">
+    <div  className="hero-section relative h-screen" id="home">
       <Navbar />
       <Background 
       heroCount={heroCount}
       playStatus={playStatus}
       />
-      <Hero 
+      <Hero
       heroCount={heroCount}
       setHeroCount={setHeroCount}
       playStatus={playStatus}
@@ -37,11 +35,11 @@ const App = () => {
       />
     </div>
      
-    <div>
+    <div id="coffee">
       <Coffee />
     </div>
 
-    <div>
+    <div id="contact">
       <Contact />
     </div>
 
