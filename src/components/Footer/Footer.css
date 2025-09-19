@@ -34,22 +34,16 @@
 }
 
 .footer-logo{
-    animation: fadeIn 4s ease-in-out 0.7s infinite;
+    animation: fadeIn 5s ease-in forwards infinite;
 }
 
 @keyframes fadeIn {
-   0%{
-    transform: translateX(20px);
+  0% {
     opacity: 0;
-   } 
-   50%{
-    transform: translateX(-20px);
+  }
+  100% {
     opacity: 1;
-   }
-   100%{
-    transform: translateX(20px);
-    opacity: 1;
-   }
+  }
 }
 
 @media (max-width: 700px){

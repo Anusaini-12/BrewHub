@@ -18,7 +18,7 @@ const Footer = () => {
 
         <div className="footer-link">
           <h3 className="text-md sm:text-xl md:text-xl lg:text-xl font-semibold mb-4">Privacy</h3>
-          <ul className="space-y-2 text-gray-300 text-sm sm:text-md md:text-md lg:text-md">
+          <ul className="space-y-2 text-gray-300 text-md sm:text-md md:text-md lg:text-md">
             <li><a href="#" className="hover:text-pink-400">Terms of use</a></li>
             <li><a href="#" className="hover:text-pink-400">Privacy policy</a></li>
             <li><a href="#" className="hover:text-pink-400">Cookies</a></li>
@@ -27,7 +27,7 @@ const Footer = () => {
         
         <div className="footer-link">
           <h3 className="text-md sm:text-xl md:text-xl lg:text-xl font-semibold mb-4">Services</h3>
-          <ul className="space-y-2 text-gray-300 text-sm sm:text-md md:text-md lg:text-md">
+          <ul className="space-y-2 text-gray-300 text-md sm:text-md md:text-md lg:text-md">
             <li><a href="#" className="hover:text-pink-400">Shop</a></li>
             <li><a href="#" className="hover:text-pink-400">Menu</a></li>
             <li><a href="#" className="hover:text-pink-400">Gift cards</a></li>
@@ -36,7 +36,7 @@ const Footer = () => {
         
         <div className="footer-link">
           <h3 className="text-md sm:text-xl md:text-xl lg:text-xl font-semibold mb-4">About</h3>
-          <ul className="space-y-2 text-gray-300 text-sm sm:text-md md:text-md lg:text-md">
+          <ul className="space-y-2 text-gray-300 text-md sm:text-md md:text-md lg:text-md">
             <li><a href="#" className="hover:text-pink-400">Find a location</a></li>
             <li><a href="#" className="hover:text-pink-400">About us</a></li>
             <li><a href="#" className="hover:text-pink-400">Our story</a></li>
@@ -45,7 +45,7 @@ const Footer = () => {
 
         <div className="footer-link">
           <h3 className="text-md sm:text-xl md:text-xl lg:text-xl font-semibold mb-4">Information</h3>
-          <ul className="space-y-2 text-gray-300 text-sm sm:text-md md:text-md lg:text-md">
+          <ul className="space-y-2 text-gray-300 text-md sm:text-md md:text-md lg:text-md">
             <li><a href="#" className="hover:text-pink-400">FAQs</a></li>
             <li><a href="#" className="hover:text-pink-400">Shipping & Delivery</a></li>
             <li><a href="#" className="hover:text-pink-400">Support</a></li>
